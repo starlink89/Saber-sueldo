@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu sueldo</title>
+</head>
+<body>
+    <h1>Saber su sueldo segun las horas trabajadas</h1>
+    <script>
+
+        let precioHora = prompt("Ingresa el precio por hora trabajada: 💲")
+        precioHora = Number(precioHora)
+
+        let cantidadHora = prompt("Ingresa la cantidad de horas trabajadas: ⏲️")
+        cantidadHora = Number(cantidadHora)
+
+        let sueldo = cantidadHora * precioHora
+
+        alert("Basado en los datos suministrados tu sueldo sera de: 💵RD$" + sueldo )
+
+    </script>
+</body>
+</html>
